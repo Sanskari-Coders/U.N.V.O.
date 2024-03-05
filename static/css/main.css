@@ -49,8 +49,9 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 2% 5%;
+    padding: 0px 5%;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 .msgrigt{
     width: 100%;
@@ -58,8 +59,9 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 2% 5%;
+    padding: 0px 5%;
     margin-top: 50px;
+    margin-bottom: 10px;
 }
 #msg{
     background-color: black;
