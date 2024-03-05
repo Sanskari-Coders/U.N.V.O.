@@ -38,7 +38,7 @@
     overflow-x: hidden;
     background-size: contain;
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
    
 }
 #chat::-webkit-scrollbar{
@@ -50,9 +50,9 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 2% 5%;
+    padding: 0% 5%;
     margin-top: 50px;
-    margin-bottom: 10px;
+    
 }
 .msgrigt{
     width: 100%;
@@ -60,9 +60,8 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 2% 5%;
+    padding: 0% 5%;
     margin-top: 50px;
-    margin-bottom: 10px;
 }
 #msg{
     background-color: black;
