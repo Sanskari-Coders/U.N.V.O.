@@ -25,12 +25,13 @@ SECRET_KEY = 'django-insecure-8wwna3f_5g14g8cflmu8wj*%y(-^^5n&r=(kg!yk69e+4%h*w1
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1']
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'UNVOmessagebox.apps.UnvomessageboxConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
