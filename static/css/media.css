@@ -1,0 +1,26 @@
+@media (max-width:500px) {
+
+    #chat{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    #inpuform{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    
+    }
+    #inputbox{
+        width: 100%;
+        height: 10%;
+        margin-top: 0px;
+    }
+    #msginputbox{
+        width: 60%;
+        height: 50%;
+    }
+    .add, .mic, .sticky, .send{
+        font-size: 19px;
+    }
+}
