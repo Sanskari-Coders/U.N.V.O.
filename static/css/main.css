@@ -32,22 +32,49 @@
     height: 100%;
     background-color: rgb(204, 215, 160);
     border-radius: 30px;
-    background-image: url(/static/data/_\ \(1\).jpeg);
+    /* background-image: url(/static/data/_\ \(1\).jpeg); */
     white-space: nowrap;
     background-repeat: no-repeat;
     overflow-y: auto;
     overflow-x: hidden;
    background-size: contain;
-
-
-
-
+   padding-top: 30px;
+   
 }
 #chat::-webkit-scrollbar{
     display: none;
 }
-
-
+.msgleft{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+.msgrigt{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0px 100px;
+    margin-top: 50px;
+}
+#msg{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+    font-family: monospace;
+    font-size: 17px;
+}
+.a{
+    width: 50%;
+    height: 1000px;
+    background-color: brown;
+}
 
 
 /* ---------------inputbox---------- */
