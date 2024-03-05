@@ -36,8 +36,9 @@
     background-repeat: no-repeat;
     overflow-y: auto;
     overflow-x: hidden;
-   background-size: contain;
-   padding-top: 30px;
+    background-size: contain;
+    padding-top: 30px;
+    padding-bottom: 30px;
    
 }
 #chat::-webkit-scrollbar{
