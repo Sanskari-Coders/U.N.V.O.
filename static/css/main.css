@@ -49,7 +49,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    padding: 15px 5%;
+    padding: 2% 5%;
     margin-top: 50px;
 }
 .msgrigt{
@@ -58,7 +58,7 @@
     display: flex;
     justify-content: end;
     align-items: center;
-    padding: 15px 5%;
+    padding: 2% 5%;
     margin-top: 50px;
 }
 #msg{
