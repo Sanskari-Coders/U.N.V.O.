@@ -1,0 +1,32 @@
+@media (max-width:600px) {
+    #chatbox{
+        
+        margin-top: 0px;}
+    #chat{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    }
+    .msgleft , .msgrigt{
+        padding: 0px 5%;
+        margin-top: 20px;
+    }
+    #inpuform{
+        width: 100%;
+        height: 100%;
+        border-radius: 0px;
+    
+    }
+    #inputbox{
+        width: 100%;
+        height: 10%;
+        margin-top: 0px;
+    }
+    #msginputbox{
+        width: 60%;
+        height: 50%;
+    }
+    .add, .mic, .sticky, .send{
+        font-size: 19px;
+    }
+}
