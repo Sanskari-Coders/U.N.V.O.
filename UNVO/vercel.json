@@ -1,0 +1,14 @@
+{
+    "builds": [
+      {
+        "src": "UNVO/wsgi.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      {
+        "src": "/(.*)",
+        "dest": "UNVO/wsgi.py"
+      }
+    ]
+}
