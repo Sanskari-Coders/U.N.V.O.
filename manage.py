@@ -14,14 +14,8 @@ def main():
             "Couldn't import Django. Are you sure it's installed and "
             "available on your PYTHONPATH environment variable? Did you "
             "forget to activate a virtual environment?"
-    )
+        )  # <- Corrected the missing closing parenthesis here
 
-    # except ImportError as exc:
-    #     raise ImportError(
-    #         "Couldn't import Django. Are you sure it's installed and "
-    #         "available on your PYTHONPATH environment variable? Did you "
-    #         "forget to activate a virtual environment?"
-    #     ) from exc
     execute_from_command_line(sys.argv)
 
 
